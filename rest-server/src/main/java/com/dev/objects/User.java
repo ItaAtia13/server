@@ -13,6 +13,9 @@ public class User {
     @Column
     private String username;
 
+    // TODO: need to add type field  (not sure if to the data base also)
+//    private String type;
+
     @Column
     private String token;
 
@@ -47,4 +50,12 @@ public class User {
     public void setToken(String token) {
         this.token = token;
     }
+
+//    public String getType() {
+//        return type;
+//    }
+//
+//    public void setType(String type) {
+//        this.type = type;
+//    }
 }
